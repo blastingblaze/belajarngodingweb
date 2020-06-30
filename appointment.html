@@ -1,0 +1,193 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Klinik Tong Fang Cing Cau Cap Cay Fu Yung Hai</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload landing">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<header id="header">
+					<h1 id="logo"><a href="index.html">Klinik Tong Fang Cing Cau Cap Cay Fu Yung Hai</a></h1>
+					<nav id="nav">
+						<ul>
+							<li><a href="index.html">Beranda</a></li>
+							<li>
+								<a href="#">Daftar Layanan</a>
+								<ul>
+									<li><a href="daftar-dokter.html">Daftar Dokter</a></li>
+									<li>
+										<a href="layanan.html">Booking Layanan</a>
+										<ul>
+											<li><a href="appointment.html">Poliklinik Gigi</a></li>
+											<li><a href="appointment.html">Poliklinik THT</a></li>
+											<li><a href="appointment.html">Poliklinik Anak</a></li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+							<li><a href="elements.html">Tentang</a></li>
+							<li><a href="#" class="button primary">Daftar Sekarang!</a></li>
+						</ul>
+					</nav>
+				</header>
+
+			<!-- Main -->
+				<div id="main" class="wrapper style1">
+					<div class="container">
+						<header class="major">
+							<h2>Halaman Booking</h2>
+						</header>
+
+						<!-- Text -->
+							<section>
+								<div class="container d-flex" id="booking">
+    <div class="row justify-content-center align-self-center">
+      <div class="col-lg-4">
+        <div class="row mb-3">
+          <div class="col-12">
+            <div class="card hours">
+              <div class="card-header">
+                <h5>Jam Buka</h5>
+              </div>
+              <div class="card-body">
+                <table width="100%">
+                  <tbody><tr>
+                    <td>Senin - Jumat</td>
+                    <td class="kanan">09.00 - 18.00</td>
+                  </tr>
+                  <tr>
+                    <td>Sabtu dan Minggu</td>
+                    <td class="kanan">10.00 - 17.00</td>
+                  </tr>
+                </tbody></table>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mb-3">
+          <div class="col-12">
+            <div class="card h-100 mb-0">
+              <div class="card-header">
+                <h5><b>Customer Service</b></h5>
+              </div>
+              <div class="card-body">
+                <a href="#" class="btn btn-secondary btn-block tombol mb-2"><i class="fas fa-phone-alt" aria-hidden="true"></i>
+                     14045</a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+	  <hr />
+      <div class="col-lg-8">
+        <div class="card appointment">
+          <div class="card-header">
+		  <br><br>
+            <h5>Booking sekarang juga!</h5>
+          </div>
+          <div class="card-body">
+            <div class="row">
+              <div class="col-lg-8">
+                <form id="bookForm">
+                  <div class="row">
+                    <div class="col-lg-6">
+                      <div class="form-group">
+                        <label for="specialist">Poliklinik</label>
+                        <select class="form-control" name="specialist" id="specialist">
+                        <option selected="" disabled="">Pilih Poliklinik</option><option value="anak">Poliklinik Anak</option><option value="tht">Poliklinik THT</option><option value="gigi">Poli Gigi</option></select>
+                        <div class="invalid-feedback"></div>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                      <div class="form-group">
+                        <label for="purpose">Dokter</label>
+                        <select class="form-control" name="purpose" id="purpose">
+                          <option>drg. Rhenal Za Maulana Wongso, M.M, Sp.BM, Sp.S, Sp.An, Sp.PD</option>
+                          <option>dr. Tatang Sutarma, Sp.BM</option>
+                          <option>dr. Gabriella H., Sp.S</option>
+                        </select>
+                        <div class="invalid-feedback"></div>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                      <div class="form-group">
+                        <label for="date">Tanggal</label>
+                        <input type="date" class="form-control" name="date" id="date" placeholder="mm/dd/yyyy">
+                        <div class="invalid-feedback"></div>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                      <div class="form-group">
+                        <label for="complaints">Info tambahan mengenai keluhan anda: </label>
+                        <textarea class="form-control" name="complaints" id="complaints" rows="4" placeholder="Contoh: pusing, demam, dll."></textarea>
+                        <div class="invalid-feedback"></div>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                      <div class="form-group">
+                        <label for="time">Jam</label>
+                        <select class="form-control" name="time" id="time">
+                          <option selected="" disabled="">Pilih Jam</option>
+                          <option>09.00</option>
+                          <option>10.00</option>
+                          <option>11.00</option>
+                          <option>12.00</option>
+                          <option>13.00</option>
+                          <option>14.00</option>
+                          <option>15.00</option>
+                          <option>16.00</option>
+                          <option>17.00</option>
+                        </select>
+                        <div class="invalid-feedback"></div>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+
+                <a href="queue.html" class="button primary">Booking</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+			<!-- Footer -->
+				<footer id="footer">
+					<ul class="icons">
+						<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+						<li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+						<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>&copy; Untitled. All rights reserved.</li><li>Rhenal Za Maulana Wongso</a></li>
+					</ul>
+				</footer>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+
+</html>
