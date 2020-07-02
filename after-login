@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Klinik Medika Central</title>
+		<title>Klinik Tong Fang Cing Cau Cap Cay Fu Yung Hai</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/mainhome.css" />
@@ -12,12 +12,12 @@
 
 			<!-- Header -->
 				<header id="header">
-					<h1 id="logo"><a href="index.html">Klinik Medika Central</a></h1>
+					<h1 id="logo"><a href="index.html">Klinik Tong Fang Cing Cau Cap Cay Fu Yung Hai</a></h1>
 					<nav id="nav">
 						<ul>
 							<li><a href="index.html">Beranda</a></li>
 							<li>
-								<a href="#">Info booking</a>
+								<a href="#">Daftar Layanan</a>
 								<ul>
 									<li><a href="daftar-dokter.html">Daftar Dokter</a></li>
 									<li>
@@ -30,8 +30,8 @@
 									</li>
 								</ul>
 							</li>
-							<li><a href="buat-akun.html" class="button primary">Daftar Sekarang!</a></li>
-							<li><a href="login.html" class="button primary">Login</a></li>
+							<li><a href="elements.html">Tentang</a></li>
+							<li><a href="#" class="button primary">Daftar Sekarang!</a></li>
 						</ul>
 					</nav>
 				</header>
@@ -40,10 +40,11 @@
 				<section id="banner">
 					<div class="content">
 						<header>
-							<h2>Klinik Medika Central</h2>
-							<p>Kepuasan anda adalah kepentingan kami.</p>
+							<h2>Klinik Tong Fang Cing Cau Cap Cay Fu Yung Hai</h2>
+							<p>Tempat dimana anda dapat membuang-buang uang anda, <br />
+							demi pengobatan yang tidak ada hasilnya.</p>
 						</header>
-						<span class="image"><img src="images/doctor.png" alt="" /></span>
+						<span class="image"><img src="images/pic01.jpg" alt="" /></span>
 					</div>
 					<a href="#one" class="goto-next scrolly">Next</a>
 				</section>
@@ -57,16 +58,20 @@
 								<div class="col-4 col-12-medium">
 									<header>
 										<h2>Testimoni</h2>
-										<p>Kelvin Lukita, 17, 170cm</p>
+										<p>Mamanx Garox, 25, 199cm</p>
 									</header>
 								</div>
 								<div class="col-4 col-12-medium">
-									<p>Dengan adanya website ini, saya merasa sangat terbantu karena dapat membooking
-									keperluan yang saya butuhkan, kapanpun, dan dimanapun.</p>
+									<p>Dulu saya sakit-sakitan karena istri saya meninggalkan saya.
+									Setelah saya pergi ke klinik tongfang, saya mendapatkan istri
+									baru, yaitu kasir klinik tong fang. Kami berpacaran selama 10
+									tahun, dan akhirnya kami memiliki 10 orang anak.</p>
 								</div>
 								<div class="col-4 col-12-medium">
-									<p>Info yang diberikan pun sangat mendetail mulai dari pemilihan poli, daftar dokter,
-									dan sebagainya.</p>
+									<p>Sejak saat itu, saya rajin mendatangi klinik tong fang setiap
+									hari untuk melakukan pengobatan rutin yaitu bucin di meja kasir.
+									Sekarang saya sudah sehat walafiat lahir dan batin. Terima kasih
+									klinik tong fang.</p>
 								</div>
 							</div>
 						</div>
@@ -80,11 +85,16 @@
 					<div class="content">
 						<header>
 							<h2>Testimoni</h2>
-							<p>Daniel Christian, 17, 172cm</p>
+							<p>Daniel Banteng Christian, 17, 170cm</p>
 						</header>
-						<p>Proses booking yang sangat cepat dan mudah ditambah dengan <i>user interface</i> yang 
-						menarik membuat saya nyaman untuk menggunakan website ini. Kemudahan yang ditawarkan pun beraneka
-						ragam dan tentunya dapat membuat kehidupan menjadi lebih mudah.</p>
+						<p>Pada saat saya SMA, saya sering dibully teman-teman saya karena 
+						saya seorang yang pemarah. Saya kerap dipanggil banteng karena sifat saya
+						yang menyerupai banteng. <b>Sejak saya datang ke klinik tong fang, Alhamdulilah
+						saya bisa meminjam gunting yang ada di klinik untuk membunuh teman-teman saya</b>.
+						Terima kasih banyak klinik tong fang.</p>
+						<ul class="actions">
+							<li><a href="#" class="button">Learn More</a></li>
+						</ul>
 					</div>
 					<a href="#three" class="goto-next scrolly">Next</a>
 				</section>
@@ -95,13 +105,16 @@
 					<div class="content">
 						<header>
 							<h2>Testimoni</h2>
-							<p>John Deta, 18, 170cm</p>
+							<p>John Deta Schumacher, 18, 170cm</p>
 						</header>
-						<p>Website ini memberikan kemudahan yang begitu besar pada pemakainya, terutama dalam segi
-						kecepatan proses booking dan detailnya informasi-informasi yang dibutuhkan oleh pasien saat
-						ingin menggunakan servis ini. Saya sangat merekomendasikan bagi anda yang tidak punya waktu
-						untuk pergi datang langsung ke tempat, dapat membuat janji atau booking dengan dokter pilihan
-						anda melalui website ini.</p>
+						<p>Saya memiliki motor Kawasaki Ninja. Memang jarang dipakai tetapi saya selalu
+						memanaskannya sekali dalam sebulan. Suatu saat ketika saya ingin menggunakannya, 
+						motor tersebut tidak mau hidup karena aki motor saya digondol maling.
+						Setelah saya pergi ke klinik tong fang, motor saya tetap tidak bisa jalan, karena 
+						klinik tong fang bukan bengkel. Fuck you bitches tai anjing lah kontol</p>
+						<ul class="actions">
+							<li><a href="#" class="button">Learn More</a></li>
+						</ul>
 					</div>
 					<a href="#four" class="goto-next scrolly">Next</a>
 				</section>
@@ -111,6 +124,7 @@
 					<div class="container">
 						<header class="major">
 							<h2>Kenyamanan dan Kepuasan Anda Adalah Prioritas Kami.</h2>
+							<p>Samlekom mamankkk</p>
 						</header>
 						<div class="box alt">
 							<div class="row gtr-uniform">
@@ -140,7 +154,7 @@
 						</div>
 						<footer class="major">
 							<ul class="actions special">
-								<li><a href="buat-akun.html" class="button">Booking sekarang juga!</a></li>
+								<li><a href="#" class="button">Kembali ke Atas</a></li>
 							</ul>
 						</footer>
 					</div>
@@ -165,9 +179,10 @@
 			<!-- Footer -->
 				<footer id="footer">
 					<ul class="icons">
-						<li><a href="https://www.facebook.com/rh3nal" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
-						<li><a href="https://www.linkedin.com/in/rhenal-za-b913881b1/" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-						<li><a href="https://www.instagram.com/rh3nal/" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+						<li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+						<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
 					</ul>
 					<ul class="copyright">
 						<li>&copy; Untitled. All rights reserved.</li><li>Rhenal Za Maulana Wongso</a></li>
